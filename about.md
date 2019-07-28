@@ -4,9 +4,7 @@ title: "About"
 permalink: /about/
 ---
 
-I'm a Masters student at University of Massachusetts, Amherst. Before this I was a Software Engineer at Google working on Google Pay. I completed my undergraduate degree from IIT Delhi in Maths and Computing.
-
-You can reach me at aartika.iitd@gmail.com .
+I work as a Product manager at [Cashfree](https://www.cashfree.com/). Before this I have worked as a quant at Goldman Sachs and a software engineer at Flipkart. I completed my undergraduate degree from IIIT-Hyderabad in Computer Science and my MBA from IIM-Bangalore. 
 
 
 
