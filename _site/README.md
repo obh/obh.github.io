@@ -1,1 +1,0 @@
-# aartika.github.io
