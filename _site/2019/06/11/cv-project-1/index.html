@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  
+  
+  <title>Partially Supervised Object detection</title>
+  <meta name="description" content="This is a summary of my course project for Computer Vision at UMass. As I was looking for ideas for the project, I came across the paper ‘Learning to segment everything’ by Hu et. al. I had recently learnt about meta-learning which I found to be very exciting. In this paper, Hu et. al. are tackling the problem of obtaining expensive segmentation mask annotations. They demonstrate an apporach which allows them to learn to predict segmentation masks for novel classes. For these new classes, only a weaker form of supervision is available in the form of bounding boxes. Their approach still requires mask annotation for some classes. Thus, they call their formulation ‘partially supervised’ as the training data consists of subsets with full supervision and weak supervision.">
+  
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/2019/06/11/cv-project-1/">
+  
+  
+  <link rel="alternate" type="application/rss+xml" title="aartika rai" href="http://localhost:4000/feed.xml">
+
+  
+
+  
+  <meta property="og:title" content="Partially Supervised Object detection">
+  <meta property="og:site_name" content="aartika rai">
+  <meta property="og:url" content="http://localhost:4000/2019/06/11/cv-project-1/">
+  <meta property="og:description" content="This is a summary of my course project for Computer Vision at UMass. As I was looking for ideas for the project, I came across the paper ‘Learning to segment everything’ by Hu et. al. I had recently learnt about meta-learning which I found to be very exciting. In this paper, Hu et. al. are tackling the problem of obtaining expensive segmentation mask annotations. They demonstrate an apporach which allows them to learn to predict segmentation masks for novel classes. For these new classes, only a weaker form of supervision is available in the form of bounding boxes. Their approach still requires mask annotation for some classes. Thus, they call their formulation ‘partially supervised’ as the training data consists of subsets with full supervision and weak supervision.">
+  
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:title" content="Partially Supervised Object detection">
+  <meta name="twitter:description" content="This is a summary of my course project for Computer Vision at UMass. As I was looking for ideas for the project, I came across the paper ‘Learning to segment everything’ by Hu et. al. I had recentl...">
+  
+  
+
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css?family=Bitter:400,400i,700&display=swap" rel="stylesheet">
+
+  
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">aartika rai</a>
+
+    <nav class="site-nav">
+      
+        
+        <a class="page-link" href="/about/">About</a>
+      
+        
+        <a class="page-link" href="/archives/">Archives</a>
+      
+        
+        <a class="page-link" href="https://github.com/aartika">GitHub</a>
+      
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    
+      <h1 class="post-title" itemprop="name headline">Partially Supervised Object detection</h1>
+    
+    <p class="post-meta"><time datetime="2019-06-11T00:21:36+05:30" itemprop="datePublished">Jun 11, 2019</time> •
+  
+    
+    
+  
+
+
+
+</p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>This is a summary of my course project for Computer Vision at UMass. As I was looking for ideas for the project, I came across the paper ‘Learning to segment everything’ by Hu et. al. I had recently learnt about meta-learning which I found to be very exciting. In this paper, Hu et. al. are tackling the problem of obtaining expensive segmentation mask annotations. They demonstrate an apporach which allows them to learn to predict segmentation masks for novel classes. For these new classes, only a weaker form of supervision is available in the form of bounding boxes. Their approach still requires mask annotation for some classes. Thus, they call their formulation ‘partially supervised’ as the training data consists of subsets with full supervision and weak supervision.</p>
+
+<p>This ‘partially supervised’ paradigm, though requiring more supervision than an entirely-weakly supervised approach such as WSDNN discussed later, may actually be more pragmatic as it makes use of the already available mask annotations in the form of large scale datasets e.g. MS COCO, PASCAL VOC etc. while building the capability to generalize to new classes.</p>
+
+<p>For my part, I wondered whether the weak supervision could not be made weaker than bounding boxes. For the project, I modified the problem such that only image level classification labels are available as weak supervision. This problem statement, “Partially supervised object detection”, assumes bounding box annoatations for the fully supervised set and multiu-class labels for weakly supervised. Multi-class labels are nothing but a binary label for each class telling whether or not an object of that class appears in a given image.</p>
+
+<p><a href="http://localhost:4000/assets/CV_poster.pdf">Poster</a></p>
+
+
+  </div>
+
+  
+
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <p>
+      
+
+&copy; aartika - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="http://localhost:4000/feed.xml">RSS</a>
+
+    </p>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

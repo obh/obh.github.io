@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Partially Supervised Object Detection"
+date:   2019-06-11 00:21:36 +0530
+categories: CV
+---
+
+This is a summary of my course project for Computer Vision at UMass. 
+
+In their paper called 'Learning to segment everything' (2018), Hu et al. propose a meta-learning technique for partially supervised semantic segmentation. Even though segmentation models such as Mask-RCNN have shown impressive performance on standard datasets, it is still challenging to use them for novel categories as training these models requires extensive mask annotations which can be very expensive. Hu et al. demonstrate an approach which learns to predict segmentation masks for novel classes with only ground truth bounding boxes as supervision, which is weaker but easier to obtain. Their approach still requires mask annotation for some classes. Thus, they call their formulation 'partially supervised' as the training data consists of subsets with full supervision and weak supervision. 
+
+This 'partially supervised' paradigm, though requiring more supervision than an entirely-weakly supervised approach such as WSDNN (2016, Bilen et al.), may actually be more pragmatic as it makes use of the already available mask annotations in the form of large scale datasets e.g. MS COCO, PASCAL VOC etc. while building the capability to generalize to new classes.
+
+For my project, I decided to work with even weaker supervision available as classification labels at the image level and relaxed the problem to predicting bounding boxes. This problem statement, 'Partially supervised object detection', assumes bounding box annoatations for the fully supervised set and multi-class labels for weakly supervised. Multi-class labels are nothing but a binary label for each class indicating whether or not an object of that class appears in a given image. 
+
+[Poster]({{ site.url }}/assets/CV_poster.pdf)
+
+
