@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Working with Gatsby - Part 2"
+date:   2019-07-28 00:21:36 +0530
+categories: react,gatsby
+---
+
+Last weekend I tried out Gatsby for the first time. Gatsby is a new way to build modern websites, it really shines as it leverages the power of React and GraphQl. You can input any datasource into Gatsby - Databases, APIs, Markdown etc.. GraphQl reads data from these resources and pushes to React components (html/css/js), which generates static html pages.
+
+We are using Gatsby to power our technical documentation. We already have markdown files (which were previously rendered in Jekyll). Graphql parses these markdown files and forwards it to React. This also helps us in building out new features with minimal effort. 
+
+For instance our documentation consists of code snippets in various languages - PHP, Python, java etc. In the last post I was trying to add a global language selector, while that did work out. There are certain snippets which can be rendered only in a specific language, for example Android snippets can only be in Java or Kotlin. We need a way to locally identify these snippets and render them correctly.
+
+Gatsby provides a plugin to render a code block nicely, it does not offer a tabular view for a specific code snippet. I did this by utilizing the underlying power of GraphQL and writing some specific parsing code. The parser reads the corresponding code snippets and pushes them together to a Tab component. 
+
+This is the real power of Gatsby, I just had to write the parsing logic and Gatsby took care of the stitching it with GraphQL and React. This way we can also extend markdown files and offer a much richer UX to our customers. 
+
+The end result looked something like this.
+<img src="{{ site.url }}/assets/language-switch.png" alt="Language switch screenshot" />
