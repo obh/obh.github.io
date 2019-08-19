@@ -5,11 +5,11 @@ date:   2019-07-28 00:21:36 +0530
 categories: react,gatsby
 ---
 
-I tried out Gatsby for a work related project this weekend. Gatsby is a static site generator built using React. State site generators are really useful to build out static content on the web. This blog itself is hosted on another such generator (jekyll). Gatsby really shines because it's built on top of React and you can leverage it to build more complicated stuff than other such generators.
+I tried out Gatsby for a work related project this weekend. Gatsby is a static site generator built using React. State site generators are really useful to build out static content on the web. This blog itself is hosted on another such generator (jekyll). Where it really shines is that the it's built on top of React and you can leverage it to build more complicated stuff than other as static generators.
 
-Our usecase at Cashfree was to host our public documentation using Gatsby. We currently use jekyll for this purpose, but it is restrictive in the features you can add. While I haven't really worked on a full fledged react project before, I understood the basics around states, props and components. 
+At Cashfree we wanted to host our public developer documentation using Gatsby. Most people prefer to use something as simple as Read The Docs for technical documentation. But we did not want to be bogged down by an external software, when we could leverage something open source and which would give us more flexibility. We currently use jekyll for this purpose, but of late our documentation has become a mess. 
 
-I added a new feature to the project - language toggle. Our documentation is offered in multiple programming languages - php, python, java, go etc. So we need to build a language switcher to help people select a language they prefer. I found the easiest and most scalable way to do this is to utilize the React context API. Basically the language array becomes a part of your react context, which is then injected into the `Code` component. 
+To begin with, I haven't really worked on a complete react project before. But I do understood the basics around states, props and components and I'm sufficient. To begin with I added a new feature to the project - a code box supporting language toggle. Our documentation is offered in multiple programming languages - php, python, java, go etc. So we need to build a language switcher to help people select a language they prefer. I found the easiest and most scalable way to do this is to utilize the React context API. Basically the language array becomes a part of your react context, which is then injected into the `Code` component. 
 
 React context API works using a publisher-consumer model. The publisher publishes the context value, and a consumer gets to consume the values which are nearest in the tree. To get this working on Gatsby, we just need to wrap the entire content around the Context Provider. 
 

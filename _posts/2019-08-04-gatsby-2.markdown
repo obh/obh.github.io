@@ -5,7 +5,7 @@ date:   2019-07-28 00:21:36 +0530
 categories: react,gatsby
 ---
 
-Last weekend I tried out Gatsby for the first time. Gatsby is a new way to build modern websites, it really shines as it leverages the power of React and GraphQl. You can input any datasource into Gatsby - Databases, APIs, Markdown etc.. GraphQl reads data from these resources and pushes to React components (html/css/js), which generates static html pages.
+Last weekend I tried out Gatsby for the first time. Gatsby is a new way to build modern websites and where it really shines is in the way it leverages the power of React and GraphQL. You can input any datasource into Gatsby - Databases, APIs, Markdown etc.. GraphQl reads data from these resources and pushes to React components (html/css/js), which generates static html pages.
 
 We are using Gatsby to power our technical documentation. We already have markdown files (which were previously rendered in Jekyll). Graphql parses these markdown files and forwards it to React. This also helps us in building out new features with minimal effort. 
 
