@@ -33,7 +33,7 @@ Rajan argues, that with time pressure is being built on both of these bargains. 
 To usher in more competition in the banking sector, RBI freed up entry and grant of commercial banking licenses. During this time RBI also put set up the small finance banks and payment banks. While the book talks about the payments bank experiment. We in hindsight have the luxury to judge it. Of the 11 entities which were issued payment banks license, only a handful have been successful. PayTM is one of those winners and is trying to innovate in that space.
 
 <div style="width:image width px; font-size:80%; text-align:center;"><img src="{{ site.url }}/assets/payment-bank.png" alt="Payment Bank" />PayTM payments bank leading in digital payments</div>
-
+<br/><br/>
 
 Two other suggestions which Dr. Rajan offers to improve public sector banks in India revolve around hiring and governement control. Since then, the government ownership of these banks have only gone up. And I'm unsure how much of organizational and governance changes have been made to improve these banks.
 
