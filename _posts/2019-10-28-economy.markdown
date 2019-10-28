@@ -1,0 +1,43 @@
+---
+layout: post
+title:  "I do what I do - A review"
+date:   2019-10-28 00:21:36 +0530
+categories: books,economics,finance
+---
+I do what I do is a book by Raghuram Rajan. It is a collection of essays and lecture that Dr. Rajan gave, over the years he was the Governor of the Reserve Bank of India (RBI). The Reserve bank of India is the central bank regulating the issuance of currency and mantaining the monetary stability of India markets. During his tenure as the governor of the RBI, Dr. Rajan became popular amongst the people and the media. He was sometimes referred as the rockstar central banker.
+
+This book by Rajan is a great read about the decision making at RBI. Rajan delves into many topics in great detail. He outlines the policies and the reasons for implementing those. This is a great book for somebody interested in the workings of the central bank of India. A basic understanding of economics should be enough to take it up. In this post I'll try to summarize some of the basic details laid about in this text. I'll be omitting the non-performing assets part as a lot has been said about it in recent times already.
+
+<h3>Inflation Targeting</h3>
+Rajan writes - <i>"RBI is committed to getting the strongest growth possible for India.......We believe the best way we can foster sustainable growth in the current situation, other than through developing the financial sector, is through monetary stability - by bringing down inflation over a reasonable period of time."</i>
+RBI under Dr. Rajan took to inflation targeting as one of its key focus. The inflation index being tracked was moved from the Wholesale Price Index to Consumer Price Index. Inflation targeting and the movement away from WPI, had many critics in the government and the markets. Arun Jaitley, the then finance minister had constantly prodded the RBI to bring down interest rates.
+However, Dr. Rajan elucidates the need for an emerging economy to have inflation within control. According to him growth and inflation are part of the same coin. The two key tenets of RBI's philosophy during that time were -
+
+<ul>
+<li>1. The best way for a central bank to generate growth in the long run is for it to keep inflation low and steady.</li>
+<li>2. Central Bank's monetary policy is relevant in controlling inflation (even food inflation)</li>
+</ul>
+
+RBI during those days set on a glide path to bring down inflation. Their progress can be seen in the below chart which tracks inflation since 2012. RBI and the government also constituted the Monetary Policy Committee, which would going forward independently decide on interest rates.
+<img src="{{ site.url }}/assets/inflation.png" alt="Inflation India" />
+
+<h3>Banking sector</h3>
+The Indian banking sector has a mix of public and private sector banks. Of late the private sector banks have leapfrogged the public sector banks. Dr. Rajan writes about two grand bargains which have decided the fate of public sector banks in India.
+<ul>
+<li>1. Access to facilities from the government (liquidity facilities, low cost time and demand deposits), in return for opening branches in unbanked areas and making loans to priority sectors</li>
+<li>2. Taking up risks and projects for the government and in lieu government standing behind these banks</li>
+</ul>
+
+Rajan argues, that with time pressure is being built on both of these bargains. Large scale projects cannot just be financed by banks, but will require innovative project financing. And going forward, the increased competition for low cost deposits will hamper the prospects for these banks. We are seeing more of this as many financial institutions like mutual funds compete for these funds. And as households become more sophisticated, they would want better returns than those offered by banks.
+
+To usher in more competition in the banking sector, RBI freed up entry and grant of commercial banking licenses. During this time RBI also put set up the small finance banks and payment banks. While the book talks about the payments bank experiment. We in hindsight have the luxury to judge it. Of the 11 entities which were issued payment banks license, only a handful have been successful. PayTM is one of those winners and is trying to innovate in that space.
+Two other suggestions which Dr. Rajan offers to improve public sector banks in India revolve around hiring and governement control. Since then, the government ownership of these banks have only gone up. And I'm unsure how much of organizational and governance changes have been made to improve these banks.
+
+<h3>Financial Inclusion</h3>
+Financial inclusion is a key pillar in RBI's strategy. Sustained growth requires all members of the economy to have access to credit and payment systems. An anecdote Dr. Rajan brings up is an informal meeting with poor women entreprenuers. Here he found that most women had, at least once, borrowed money from a moneylender, but not one of them thought of getting money from the banks. Micro-entreprenuers in India are dependent on local moneylenders to a great extent. Governments in the past forced banks to open banks in rural areas to expand credit in these areas. However, this did not bring much change to the ecosystem. The local moneylender was entrenched in the system, and demanded high rate of interest. To address this problem, RBI decided on three different approaches-
+<ul>
+<li>1. Mandates - Forcing banks to lend to priority sectors. Asking them to open banks under the Pradhan Mantri Jan Dhan Yojana. Mandates through have high costs, and sometimes offer low returns.</li>
+<li>2. Right institutions - As with Payments bank, RBI also offered licenses for small finance banks. These banks were mandated to make 75% of their loans of less than 25Lakhs. Thus, forcing them to servce the micro enterprises of India.</li>
+<li>3. Going beyond credit - Credit has been the sole focus as we talk about financial inclusion. There are other services though which could help promote financial inclusion - Payments and remittances. RBI opened up Banking Correspondents for domestic remittance in India. These BCs promote last mile services in rural areas. The RBI (through NPCI) helped create the UPI (Unified payments interface) network, helping a large set of people access financial services around payments. Again in hindsight, with cheap data (the Jio effect) and proliferation of mobile devices, the UPI payments network has grown by leaps and bounds in the past couple of years.</li>
+
+<img src="{{ site.url }}/assets/financial_inclusion.png" alt="Financial inclusion" />
