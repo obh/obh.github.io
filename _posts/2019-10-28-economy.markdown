@@ -34,6 +34,8 @@ To usher in more competition in the banking sector, RBI freed up entry and grant
 
 <div style="width:image width px; font-size:80%; text-align:center;"><img src="{{ site.url }}/assets/payment-bank.png" alt="Payment Bank" />PayTM payments bank leading in digital payments</div>
 
+
+
 Two other suggestions which Dr. Rajan offers to improve public sector banks in India revolve around hiring and governement control. Since then, the government ownership of these banks have only gone up. And I'm unsure how much of organizational and governance changes have been made to improve these banks.
 
 <h3>Financial Inclusion</h3>
